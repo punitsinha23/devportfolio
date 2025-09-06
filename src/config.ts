@@ -1,92 +1,68 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Punit Sinha",
+  title: "Full Stack Web Developer and App developer",
+  description: "Portfolio website of Punit Sinha, showcasing web and mobile development projects and skills.",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "punitsinha495@gmail.com",
+    linkedin: "https://www.linkedin.com/in/punit-sinha-560350278/",
+    twitter: "https://x.com/punit1542004",
+    github: "https://github.com/punitsinha23",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a passionate BCA student and aspiring full-stack developer, exploring web and mobile development. I love building intuitive and responsive apps, learning new technologies, and sharing my journey with the world. My projects aim to blend creativity with clean, efficient code.",
+  skills: [
+    "Python",
+    "JavaScript",
+    "Node.js",
+    "React",
+    "React Native",
+    "Django",
+    "PostgreSQL",
+    "HTML5",
+    "CSS3",
+    "TailwindCSS",
+    "Web Scraping",
+    "GenAI"
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "WatchIt",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A comprehensive movie streaming platform where users can watch their favorite TV shows, movies, and anime for free. It features a responsive web interface with seamless navigation and a database-driven content management system.",
+      link: "https://watchit-eta.vercel.app/",
+      skills: ["Django", "JavaScript", "HTML", "CSS", "PostgreSQL"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "WatchIt for Android & iOS",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "The mobile application version of WatchIt, built for both Android and iOS. Users can stream movies and TV shows on the go, with smooth performance and an intuitive UI powered by React Native and TailwindCSS.",
+      link: "https://expo.dev/accounts/punit12/projects/Watchit/builds/a9e09311-1dcd-4053-a797-ff412ed07fac",
+      skills: ["React Native", "TailwindCSS", "Appwrite"],
     },
     {
-      name: "ExtensionKit",
+      name: "JobHub",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A smart job aggregator platform that collects job listings from popular websites like LinkedIn and Indeed. It also includes a chatbot assistant to guide users in job searches, making the process faster and more efficient.",
+      link: "https://jobhub-flame.vercel.app/",
+      skills: ["Python", "Django", "HTML", "CSS", "JavaScript", "Web Scraping", "GenAI"],
     },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+{
+  name: "SellIt",
+  description:
+    "A marketplace platform where users can buy and sell second-hand items easily. It provides a user-friendly interface to list products, browse listings, and connect with buyers and sellers securely.",
+  link: "https://sellit-gamma.vercel.app/user/login/",
+  skills: ["Python", "Django", "HTML", "CSS", "JavaScript"],
+}
+
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "Manav Rachna University",
+      degree: "Bachelor of Computer Application (BCA)",
+      dateRange: "2023",
+      description:
+        "Pursuing a degree in Computer Applications with focus on software development, web technologies, and database management and AI/ML",
     },
   ],
 };
